@@ -152,6 +152,140 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Hexo的初次部署" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2023/03/19/Hexo%E7%9A%84%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2/">Hexo的初次部署</a>
+    </h1>
+  
+
+        
+        <a href="/2023/03/19/Hexo%E7%9A%84%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2/" class="archive-article-date">
+  	<time datetime="2023-03-19T15:00:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-03-19</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><p>hexo项目创建在VMware平台虚拟出的CentOS7上，目标部署在github仓库。<br>这样方便利用VMware的快照机制降低试错成本以及节约时间。<br>VMware的配置与要记录的信息。</p>
+<h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><p>项目需要python&#x2F;gcc&#x2F;node的版本符合要求，因此要学会安装&#x2F;更新方式。<br>python还要处理Python3与Centos7自带的Python2的版本共存的问题。<br>cnpm的安装 npm install -g cnpm –registrt-<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a></p>
+<h2 id="Hexo建立项目"><a href="#Hexo建立项目" class="headerlink" title="Hexo建立项目"></a>Hexo建立项目</h2><p>下载hexo： cnpm install -g hexo-cli<br>验证： hexo -v<br>切换目录到新建项目的文件夹<br>初始化Hexo博客：sudo hexo init<br>启动项目 hexo s<br>虚拟机访问方法并使主机能够访问虚拟机服务端口 参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/AmeliaPP/article/details/119224032">https://blog.csdn.net/AmeliaPP/article/details/119224032</a><br>新建文章：hexo n “文章名” # 使用MARKDOWN格式<br>刷新项目：hexo clean &amp;&amp; hexo g # 清除缓存并重新生成hexo项目</p>
+<h2 id="部署到Github仓库"><a href="#部署到Github仓库" class="headerlink" title="部署到Github仓库"></a>部署到Github仓库</h2><p>准备github的用户名，邮箱和令牌(token) # 参考<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/501872439">https://zhuanlan.zhihu.com/p/501872439</a><br>安装插件： cnpm install –save hexo-deployer-git<br>设置_config.yml： 在deploy:下添加…注意格式<br>生成SSH公钥并输入Github[确认是否必要]<br>部署： hexo d # 依次输入用户名，邮箱，token<br>访问： 浏览器</p>
+<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><h1 id="非必要"><a href="#非必要" class="headerlink" title="非必要"></a>非必要</h1><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><h1 id="参考-1"><a href="#参考-1" class="headerlink" title="参考"></a>参考</h1>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/03/19/Hexo%E7%9A%84%E5%88%9D%E6%AC%A1%E9%83%A8%E7%BD%B2/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-第一篇博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2023/03/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">第一篇博客</a>
+    </h1>
+  
+
+        
+        <a href="/2023/03/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2023-03-19T14:49:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-03-19</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="第一段"><a href="#第一段" class="headerlink" title="第一段"></a>第一段</h2><p>内容</p>
+<p>———</p>
+<h2 id="第二段"><a href="#第二段" class="headerlink" title="第二段"></a>第二段</h2><p>内容</p>
+<p>———</p>
+<h2 id="参考视频"><a href="#参考视频" class="headerlink" title="参考视频"></a>参考视频</h2><p>B站搜索：BV1Yb411a7ty</p>
+<p>———</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/03/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
